@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.boxyi{
+    width: 100%;
+    height: 0.69rem;
+    background: #29a5ff;
+    padding: 0 0.24rem;
+}
+.bosleft{
+    width: 3.51rem;
+    height: 0.46rem;
+    /*background: rebeccapurple;*/
+    float: left;
+    margin-top: 0.12rem;
+}
+.boximg-a{
+    width: 0.22rem;
+    height: 0.42rem;
+    display: block;
+}
+.boximg-b{
+    width: 0.94rem;
+    height: 0.45rem;
+    margin-left: 2.57rem;
+}
+.congratulation{
+    height: 3.69rem;
+    width: 100%;
+    padding: 1.2rem 1.90rem;
+    background: #29a5ff;
+}
+.congratulation p{
+    font-size: 0.3rem;
+    color: #eeeeee;
+    text-align: center;
+}
+.congratulation h1{
+    font-size: 0.44rem;
+    color: #eeeeee;
+    text-align: center;
+}
+.bottom{
+    width: 100%;
+    /*width: 7.49rem;*/
+    height: 8.42rem;
+    background: url("../img/zhifuchenggong.png") no-repeat center/cover;
+}

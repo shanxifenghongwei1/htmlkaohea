@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.box-one{
+    height: 3.64rem;
+    width: 100%;
+    background: #29a5ff;
+    padding-left: 0.5rem;
+
+}
+.box-one h2{
+    font-size: 0.36rem;
+    color: white;
+    margin-top: 1.57rem;
+    /*text-align: center;*/
+}
+.box-one .pay{
+    height: 1.57rem;
+    width: 7.11rem;
+    background: #fafafa;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 2.7rem;
+    left: 0.2rem;
+    line-height: 1.57rem;
+    padding:0 0.25rem;
+    z-index: 30;
+    box-shadow: 0 0 0.3rem rgba(0,0,0,0.2);
+}
+.box-one .pay p{
+    font-size: 0.36rem;
+    color: #747776;
+    /*text-align: center;*/
+}
+
+.box-one .pay p span{
+    font-size: 0.36rem;
+    color: #ff2618;
+    margin-left: 1.5rem;
+    /*text-align: center;*/
+}
+.box-two{
+    width: 7.5rem;
+    position: relative;
+    height: 9.38rem;
+    background: url("../img/zhifuyemian.png") no-repeat center/cover;
+}
+.box-two a{
+    height: 1.82rem;
+    width: 1.77rem;
+    background: #29a5ff;
+    position: absolute;
+    left: 2.7rem;
+    bottom: 1.2rem;
+    opacity: 0.1;
+}
+

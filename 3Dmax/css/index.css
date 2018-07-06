@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*box-sizing: border-box;*/
+}
+body{
+    background: #747776;
+    /*overflow: hidden;*/
+    /*position: relative;*/
+}
+body .flow{
+    width: 500px;
+    height: 500px;
+    /*border: 2px solid red;*/
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+
+}
+body .flow .box{
+    /*height: 200px;*/
+    /*width: 200px;*/
+    /*background: rebeccapurple;*/
+    top:0;
+   bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 2000px;
+    perspective-origin: top right;
+
+
+}
+.flow:hover .box{
+    transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg);
+    transition: all 6s ease-out;
+    /*perspective-origin: bottom right;*/
+}
+/*.flow .box ul{*/
+    /*transform-style: preserve-3d;*/
+    /*perspective: 2000px;*/
+    /*perspective-origin: top right;*/
+/*}*/
+
+body .flow .box ul li{
+    height: 200px;
+    width: 200px;
+    background: rebeccapurple;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transition: all 0.3s ease-out;
+
+}
+
+body .flow .box ul li.front{
+    background: url("../img/ez.png") no-repeat center/cover;
+}
+body .flow .box ul li.back{
+    background: url("../img/kapai.png") no-repeat center/cover;
+}
+body .flow .box ul li.left{
+    background: url("../img/kate.png") no-repeat center/cover;
+}
+body .flow .box ul li.right{
+    background: url("../img/timo.png") no-repeat center/cover;
+}
+body .flow .box ul li.top{
+    background: url("../img/tuoersuo.png") no-repeat center/cover;
+}
+body .flow .box ul li.bottom{
+    background: url("../img/xiazi.png") no-repeat center/cover;
+}
+body .flow .box ul li.front{
+    transform: translateZ(100px) ;
+}
+body .flow .box ul li.back{
+    transform: translateZ(-100px) ;
+}
+body .flow .box ul li.left{
+    transform: translateX(-100px) rotateY(90deg);
+}
+body .flow .box ul li.right{
+    transform: translateX(100px) rotateY(90deg);
+}
+body .flow .box ul li.bottom{
+    transform: translateY(100px) rotateX(90deg);
+}
+body .flow .box ul li.top{
+    transform: translateY(-100px) rotateX(90deg);
+}

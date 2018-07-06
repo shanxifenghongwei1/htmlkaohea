@@ -1,0 +1,255 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.boxyi{
+    width: 100%;
+    height: 0.69rem;
+    background: #29a5ff;
+    padding: 0 0.24rem;
+}
+.bosleft{
+    width: 3.51rem;
+    height: 0.46rem;
+    /*background: rebeccapurple;*/
+    float: left;
+    margin-top: 0.12rem;
+}
+.boximg-a{
+    width: 0.22rem;
+    height: 0.42rem;
+    display: block;
+}
+.boximg-b{
+    width: 0.94rem;
+    height: 0.45rem;
+    margin-left: 2.57rem;
+}
+.box{
+    height: 2.93rem;
+    width: 100%;
+    background:#29a5ff ;
+    position: relative;
+}
+.box p{
+    font-size: 0.21rem;
+    float: left;
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+}
+.box .box-a{
+    padding: 0 0.82rem;
+}
+.box .box-a p{
+    color: #d4d4d4;
+}
+.box .company{
+    height: 0.25rem;
+    width: 0.64rem;
+    border-radius: 0.5rem;
+    border: 0.01rem solid white;
+    /*background: #ffc244;*/
+    float: left;
+    font-size: 0.18rem;
+    line-height: -0.18rem;
+    text-align: center;
+    margin-top: 0.3rem;
+    color: #d4d4d4;
+}
+.box h2{
+    font-size: 0.36rem;
+    color: #fefaff;
+    width: 100%;
+    padding: 0 0.82rem;
+    margin-top: 0.3rem;
+    /*text-align: center;*/
+}
+.box h3{
+    font-size: 0.26rem;
+    color: #d4d4d4;
+    width: 100%;
+    padding: 0 0.82rem;
+    margin-top: 0.3rem;
+}
+.box span {
+    margin-left: 0.5rem;
+}
+.time{
+    height: 2.54rem;
+    width: 6.89rem;
+    padding: 0 0.24rem;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 0 0.3rem rgba(0,0,0,0.2);
+    border-radius: 0.4rem;
+    position: absolute;
+    left:0.3rem;
+    top:2.82rem;
+    background: white;
+}
+
+.time p{
+    font-size: 0.34rem;
+    color: #747776;
+    width: 100%;
+    padding: 0 0.51rem;
+    margin-top: 0.33rem;
+}
+.time p span{
+    font-size: 0.24rem;
+    color: #ff2618;
+    margin-left: 2.3rem;
+    font-weight: bold;
+}
+.time h2{
+    font-size: 0.24rem;
+    color: #ff2618;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    /*margin-top: 0.1rem;*/
+    width: 85%;
+    padding: 0.1rem 0;
+    border-bottom: 0.01rem dotted #6e6e6e;
+}
+.time h3{
+    font-size: 0.34rem;
+    color: #747776;
+    width: 100%;
+    padding: 0 0.51rem;
+    margin-top: 0.33rem;
+    float: left;
+}
+.time h3 span{
+    font-size: 0.34rem;
+    color: #747776;
+    /*width: 100%;*/
+    /*padding: 0 0.51rem;*/
+    /*margin-top: 0.2rem;*/
+    float: right;
+    margin-left: 2.3rem;
+
+}
+.hotel{
+    height: 5.6rem;
+    width: 6.89rem;
+    /*background: #ffc244;*/
+    margin-top: 2rem;
+    border-radius: 0.4rem;
+    margin-left: 0.3rem;
+    padding:0.3rem 0.45rem;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 0 0.3rem rgba(0,0,0,0.2);
+    /*border-bottom: 0.01rem dotted #6e6e6e;*/
+}
+.hotel h2{
+    font-size: 0.32rem;
+    color: #747776;
+}
+.hotel .flax ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #747776;
+    margin-top: 0.1rem;
+}
+.hotel .flax ul li .border{
+/*background: #29a5ff;*/
+    /*border-bottom: 1px dotted #747776;*/
+}
+.hotel .flax ul li p{
+    font-size: 0.26rem;
+    color: #747776;
+    text-align: center;
+    line-height: 0.92rem;
+}
+.hotel .flax ul li .potato{
+    width: 1.41rem;
+    height: 0.92rem;
+}
+.hotel .flax ul li h3{
+    font-size: 0.26rem;
+    color: #29a5ff;
+    text-align: center;
+    line-height: 0.92rem;
+}
+.hotel h4{
+    font-size: 0.32rem;
+    color: #747776;
+    margin-top: 0.2rem;
+    /*float: left;*/
+    width: 100%;
+    border-bottom: 1px dotted #747776;
+    padding-bottom: 0.1rem;
+}
+.hotel h4 span{
+    font-size: 0.22rem;
+    color: #747776;
+    /*margin-top: 0.2rem;*/
+    float: right;
+    line-height: 0.32rem;
+
+}
+.hotel h4 span.money{
+    color: #ff2618;
+}
+.tableware{
+    height: 1.86rem;
+    width: 6.89rem;
+    /*background: #ffc244;*/
+    /*margin-top: 2rem;*/
+    border-radius: 0.4rem;
+    margin-left: 0.3rem;
+    padding:0.3rem 0.45rem;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 0 0.3rem rgba(0,0,0,0.2);
+    margin-top: 0.1rem;
+}
+.tableware h4 span.money{
+    color: #ff2618;
+
+}
+.tableware h4 span{
+    font-size: 0.22rem;
+    color: #747776;
+    /*margin-top: 0.2rem;*/
+    float: right;
+    line-height: 0.32rem;
+
+}
+.tableware h4{
+    font-size: 0.32rem;
+    color: #747776;
+    /*margin-top: 0.1rem;*/
+    /*float: left;*/
+    width: 100%;
+    border-bottom: 1px dotted #747776;
+    padding-bottom: 0.1rem;
+}
+.tableware p{
+    color: #ff2618;
+    font-size: 0.24rem;
+    height: 0.83rem;
+    width: 100%;
+
+    margin-top: 0.2rem;
+}
+.tableware p span.rmb{
+    color: #747776;
+    font-size: 0.12rem;
+}
+.tableware p span.pay{
+    width: 1.8rem;
+    height: 0.63rem;
+    background: #29a5ff;
+    border-radius: 0.31rem;
+    text-align: center;
+    line-height: 0.63rem;
+    color: white;
+    /*margin-left: 3.2rem;*/
+    display: block;
+    float: right;
+}

@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height:60px ;
+    background: #140c09;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+header .main .left a{
+    font-size: 30px;
+    line-height: 60px;
+}
+header .main .left{
+    float: left;
+}
+header .main .left a{
+    color: #fa1118;
+}
+header .main .left a:hover{
+    text-decoration: none;
+    color: white;
+}
+header .main .right{
+    float: right;
+    /*height: 60px;*/
+}
+header .main .right a.menu{
+    font-size: 30px;
+    line-height: 60px;
+    color: white;
+    /*display: none;*/
+}
+header .main .right a.menu-text{
+    display: none;
+    text-align: center;
+    line-height: 60px;
+    padding-left: 25px;
+    color: #666666;
+}
+header .main .right a.aline{
+    color: white;
+}
+header .main .right a.menu-text:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.banner{
+    width: 100%;
+    height: 669px;
+    background: url("../img/bg.png") no-repeat center/cover;
+    background-attachment: fixed;
+    padding-top: 152px;
+}
+.banner .between{
+    /*width: 602px;*/
+    height: 325px;
+    background: #140c09;
+    opacity:0.7 ;
+}
+.banner .between p{
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.banner .between h2{
+    font-size: 44px;
+    line-height: 34px;
+    color: white;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-top: 6px double #fa2914;
+    border-bottom: 6px double #fa2914;
+}
+.banner .between h3{
+     font-size: 24px;
+     line-height: 24px;
+     color: white;
+     text-align: center;
+     /*padding-top: 20px;*/
+ }
+.banner .between h4{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    /*padding-top: 20px;*/
+}
+.banner .between h1{
+    font-size: 12px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    /*padding-top: 20px;*/
+}
+.layout{
+    height: 180px;
+    width:100%;
+    padding-top: 80px;
+}
+.layout p{
+
+    font-size: 50px;
+    line-height: 24px;
+    color: #7ded36;
+    text-align: center;
+}
+.follows{
+    /*height:280px ;*/
+    width: 100%;
+    background: #8ab839;
+    padding-bottom: 80px;
+}
+
+.follows .top p{
+    font-size: 40px;
+    line-height: 24px;
+    color: #140c09;
+    text-align: center;
+    padding-top: 118px;
+}
+.follows .bottom .bottom-left{
+    text-align: center;
+    padding-top: 40px;
+}
+.follows .bottom-a .bottom-left{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.follows .bottom .bottom-right h2{
+    text-align: center;
+}
+.follows .bottom .bottom-right p{
+    text-align: center;
+}
+.follows .bottom-a .bottom-right h2{
+    text-align: center;
+}
+.follows .bottom-a .bottom-right p{
+    text-align: center;
+}
+.results{
+    /*height: 200px;*/
+    width: 100%;
+}
+.results p{
+    color: black;
+    text-align: center;
+    line-height: 200px;
+    font-size: 70px;
+}
+.wrap{
+    width: 100%;
+    /*height: 677px;*/
+    /*padding: 50px;*/
+}
+.wrap .wrap-one{
+    padding-top: 20px;
+}
+.wrap .wrap-one p{
+    background: #4cae4c;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    padding: 25px 0;
+    color: white;
+}
+.wrap .wrap-one .picture{
+    width: 100%;
+    height: 260px;
+}
+.active ul{
+    background: #6e6e6e;
+    overflow: hidden;
+    /*padding: 80px 60px;*/
+}
+.active .glyphicon-cloud{
+    font-size: 20px;
+    text-align: center;
+    color: #4cae4c;
+    padding: 20px 60px;
+    /*padding-top:25px;*/
+}
+/*小屏幕 col-sm-x */
+@media screen and (min-width: 768px) {
+    header .main .right a.menu-text{
+        display: inline;
+    }
+    header .main .right a.menu{
+        display: none;
+    }
+    .follows .bottom .bottom-right h2{
+        text-align: left;
+    }
+    .follows .bottom .bottom-right p{
+        text-align: left;
+    }
+    .follows .bottom-a .bottom-right h2{
+        text-align: left;
+    }
+    .follows .bottom-a .bottom-right p{
+        text-align: left;
+    }
+    .follows .bottom .bottom-left{
+        /*text-align: center;*/
+        padding-top: 0;
+    }
+    .follows .bottom{
+        padding-top: 57px;
+    }
+    .follows .bottom-a .bottom-left{
+        /*text-align: center;*/
+        padding-top: 0;
+    }
+    .follows .bottom-a{
+        padding-top: 57px;
+    }
+}
+/*中屏幕 col-*/
+@media screen and (min-width: 992px) {
+
+
+
+
+
+
+}
+/*大屏幕*/
+@media screen and(min-width: 1200px) {
+
+
+}
+
