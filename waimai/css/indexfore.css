@@ -1,0 +1,127 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.indent{
+    height: 2.27rem;
+    width: 100%;
+    background: #29a5ff;
+}
+.indent p{
+    font-size: 0.42rem;
+    color: white;
+    text-align: center;
+    line-height: 2.27rem;
+}
+.hotel{
+    height: 2.65rem;
+    width: 100%;
+    /*background: #ffc244;*/
+    padding: 0.3rem 0.25rem;
+}
+.hotel .middle{
+    width: 6.94rem;
+    height: 2.27rem;
+    /*background: #29a5ff;*/
+    box-shadow: 0 0 0.3rem rgba(0,0,0,0.1);
+}
+.hotel .middle .middle-left{
+    height: 2.24rem;
+    width: 2.24rem;
+    /*background: #d7eaff;*/
+    padding: 0.4rem;
+    float: left;
+}
+.hotel .middle .middle-left .picture{
+    width: 1.47rem;
+    height: 1.47rem;
+}
+.hotel .middle .middle-right{
+    height: 2.23rem;
+    /*background: #ff2618;*/
+    float: right;
+    width: 4.60rem;
+    padding: 0 0.28rem;
+}
+.hotel .middle .middle-right p{
+    font-size: 0.26rem;
+    width: 100%;
+    padding-top: 0.39rem;
+}
+.hotel .middle .middle-right p span{
+    height: 0.26rem;
+    width: 1.23rem;
+    font-size: 0.12rem;
+    text-align: center;
+    line-height: 0.26rem;
+    color: white;
+    background: #29a5ff;
+    float: right;
+    border-radius: 0.5rem;
+}
+.hotel .middle .middle-right h5{
+    font-size: 0.16rem;
+    font-weight: normal;
+    padding-top: 0.25rem;
+}
+.hotel .middle .middle-right h4{
+    font-size: 0.25rem;
+    font-weight: normal;
+    padding-top: 0.25rem;
+}
+.hotel .middle .middle-right h4 span{
+    font-size: 0.25rem;
+    color: #29a5ff;
+}
+.hotel .middle .middle-right h3{
+    font-size: 0.15rem;
+    color: #29a5ff;
+    padding-top: 0.15rem;
+}
+.hotel .middle .middle-right h3 span{
+    height: 0.26rem;
+    width: 1.5rem;
+    padding: 0.05rem 0.12rem;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.15rem;
+    color: #29a5ff;
+    border: 0.01rem solid #29a5ff;
+    border-radius: 0.5rem;
+}
+.hotel .middle .middle-right h3 span.two{
+    margin-left: 0.17rem;
+}
+.hotel .middle .middle-right h3 span.three{
+    float: right;
+}
+.boxqi{
+    height:1rem;
+    width:100%;
+    margin-top: 0.2rem;
+    background: #faf9ee;
+    display: flex;
+    justify-content:space-around;
+    /*align-items:center;*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.bqifoot{
+    height:1rem;
+    width:1.35rem;
+    /*background: #fa1118;*/
+    padding:0 0.24rem;
+}
+.boxqipicture{
+    height:0.75rem;
+    width:0.81rem;
+    display: block;
+    margin-top: 0.11rem;
+}
+

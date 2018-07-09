@@ -10,14 +10,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6985677">
+    <splitter split-orientation="horizontal" split-proportion="0.6595052">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="site.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="271">
-                  <caret line="390" column="44" lean-forward="true" selection-start-line="390" selection-start-column="44" selection-end-line="390" selection-end-column="44" />
+                <state relative-caret-position="91">
+                  <caret line="825" column="50" lean-forward="true" selection-start-line="825" selection-start-column="50" selection-end-line="825" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -25,12 +25,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="site.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/site.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="615">
-                  <caret line="1202" column="18" selection-start-line="1202" selection-start-column="18" selection-end-line="1202" selection-end-column="18" />
+                <state relative-caret-position="61">
+                  <caret line="876" column="18" selection-start-line="876" selection-start-column="18" selection-end-line="876" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -97,11 +97,12 @@
       <workItem from="1530626455923" duration="694000" />
       <workItem from="1530689060164" duration="103000" />
       <workItem from="1530689219105" duration="1802000" />
+      <workItem from="1531060290052" duration="755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2599000" />
+    <option name="totallyTimeSpent" value="3354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -116,8 +117,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="运行" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="运行" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -139,6 +140,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/site.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11700">
+          <caret line="390" column="44" lean-forward="true" selection-start-line="390" selection-start-column="44" selection-end-line="390" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36060">
+          <caret line="1202" column="18" selection-start-line="1202" selection-start-column="18" selection-end-line="1202" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28620">
           <caret line="954" column="10" lean-forward="true" selection-start-line="954" selection-start-column="10" selection-end-line="954" selection-end-column="10" />
         </state>
@@ -153,15 +168,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="1202" column="18" selection-start-line="1202" selection-start-column="18" selection-end-line="1202" selection-end-column="18" />
+        <state relative-caret-position="61">
+          <caret line="876" column="18" selection-start-line="876" selection-start-column="18" selection-end-line="876" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="390" column="44" lean-forward="true" selection-start-line="390" selection-start-column="44" selection-end-line="390" selection-end-column="44" />
+        <state relative-caret-position="91">
+          <caret line="825" column="50" lean-forward="true" selection-start-line="825" selection-start-column="50" selection-end-line="825" selection-end-column="50" />
         </state>
       </provider>
     </entry>
